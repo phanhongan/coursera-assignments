@@ -92,7 +92,6 @@ ax2.set_ylabel('Accuracy', color='blue')
 ax2.tick_params(axis='y', labelcolor='blue')
 
 plt.title('Training Loss and Accuracy')
-plt.legend(loc='upper left', bbox_to_anchor=(0.7, 0.9))
 plt.show()
 
 # Plot 3 random images from the validation dataset
